@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-enum tower { A='A', B='B', C='C' };
+enum tower { A='A', B='B', C='C', D='D' };
 
 void TowersOfHanoi(int n, tower x, tower y , tower z){
 	if(n){
@@ -13,4 +13,5 @@ void TowersOfHanoi(int n, tower x, tower y , tower z){
 
 int main (){
 	TowersOfHanoi(3, A, B, C);
+	return 0;
 }
